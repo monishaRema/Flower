@@ -644,14 +644,17 @@ textarea:focus{
 .footer{
 	padding: 60px 0;
 }
+.footer__box{
+	margin-bottom: 40px;
+}
 .footer__heading{
 	font-size: 18px;
-	padding: 0 20px;
+	padding-right: 20px;
 	margin-bottom: 5px;
     
 }
 .footer__menu li{
-	padding: 0 20px;
+	padding-right: 20px;
 	line-height: 1.5;
 }
 .footer__menu a{
@@ -665,7 +668,7 @@ textarea:focus{
 }
 
 .footer__contact-info p{
-	padding: 0 20px;
+	padding-right: 20px;
     line-height: 1.5;
 
 }
@@ -682,13 +685,13 @@ textarea:focus{
 
 address{
 	font-size: 16px;
-    padding: 0 20px;
+    padding-right: 20px;
 	margin-bottom: 20px;
    
 }
 
 .footer__card-box a{
-	margin-left: 10px;
+	margin-right: 10px;
 	
 
 	
@@ -710,6 +713,10 @@ address{
 	.footer{
 	padding: 80px 0;
    }
+
+   .footer__box{
+	margin-bottom: 20px;
+}
 
 	
 }
