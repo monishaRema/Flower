@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+	:root {
+		--big-font-size: 36px;
+		--heading-font-size: 28px;
+		--sub-font-size: 20px;
+		--body-font-size: 15px;
+		--small-font-size: 11px;
+	}
+}
+
+@media (min-width: 1200px) {
+	:root {
+		--big-font-size: 42px;
+		--heading-font-size: 32px;
+		--sub-font-size: 22px;
+		--body-font-size: 16px;
+		--small-font-size: 12px;
+	}
+}
+
+body {
+	font-family: "poppins", sans-serif;
+	color: var(--text-color);
+	background-color: var(--primary);
+}
